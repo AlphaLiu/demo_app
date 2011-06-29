@@ -2,6 +2,7 @@ demo app for rails learning.
 
 Note: to create the database, please use following commands:
 	rails generate scaffold User name:string email:string
+	rails generate scaffold Micropost content:string user_id:integer
 	rake db:migrate
 
 	by ALPHA Liu
