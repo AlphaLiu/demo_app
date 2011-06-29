@@ -1,4 +1,8 @@
 demo app for rails learning.
 
+Note: to create the database, please use following commands:
+	rails generate scaffold User name:string email:string
+	rake db:migrate
+
 	by ALPHA Liu
 	created 2011-06-29
